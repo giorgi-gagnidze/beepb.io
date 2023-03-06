@@ -149,3 +149,44 @@ body {
   line-height: 19px;
   color: #ffffff;
 }
+
+/* Everything section */
+
+.everything {
+  margin-top: 120px;
+  padding-bottom: 235px;
+}
+.everything__heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  color: #1c1f28;
+}
+.everything__items {
+  margin-top: 160px;
+  display: flex;
+  padding: 0 205px;
+  justify-content: space-between;
+}
+.everything__items--item {
+  max-width: 320px;
+  text-align: center;
+}
+.everything__items-item-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1c1f28;
+  margin-top: 43px;
+}
+.everything__items--item-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a1a4ac;
+  margin-top: 24px;
+}
